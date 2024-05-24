@@ -1,6 +1,12 @@
-/* || General setup */
 
-html, body {
+/* Name : Devarsh Patel
+  File : BirdWatchingStyleSheet.css
+  Date : 2024-05-24
+  Stylesheet for Structuring a page of content for MDN exercise: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content */
+
+  /* || General setup */
+
+  html, body {
   margin: 0;
   padding: 0;
 }
