@@ -9,3 +9,19 @@ html {
 }
 
 /* Your CSS below here */
+
+div {
+  width: 200px;
+  height: 100px;
+
+  font-size: calc(1rem + 2px); /* The base font size is typically 16 pixels (1rem). Adding 2 pixels to 1rem increases the font size to approximately 18 pixels. */
+
+  line-height: 5.8;
+  margin: auto;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  border: 1px solid #c90c02;
+  background-color: #E40C00;
+}
