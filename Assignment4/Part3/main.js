@@ -1,3 +1,8 @@
+// Name : Devarsh Patel
+// File : main.js
+// Date : 2024-07-26
+// Description: Object building practice exercise For MDN Docs: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice#lets_bounce_some_balls
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
