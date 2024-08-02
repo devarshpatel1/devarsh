@@ -1,3 +1,8 @@
+// Name : Devarsh Patel
+// File : main.js
+// Date : 2024-07-29
+// Description: Adding features to our bouncing balls exercise For MDN Docs: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
