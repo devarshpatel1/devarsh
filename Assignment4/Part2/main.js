@@ -28,4 +28,27 @@ for (const image of images) {
     newImage.setAttribute('src', `images/${image}`);
     newImage.setAttribute('alt', alts[image]);
     thumbBar.appendChild(newImage);
+    
+    /* Add event listener to each image to display it on click */
+    newImage.addEventListener('click', e => {
+      displayedImage.src = e.target.src;
+      displayedImage.alt = e.target.alt;
+    });
 }
+
+/* Add click event listener to the button */
+btn.addEventListener('click', () => {
+    const btnClass = btn.getAttribute('class');
+    if (btnClass === 'dark') {
+      /* If the button class is 'dark', change it to 'light' and update text to 'Lighten' */
+      btn.setAttribute('class','light');
+      btn.textContent = 'Lighten';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    } else {
+      /* If the button class is 'light', change it to 'dark' and update text to 'Darken' */
+      btn.setAttribute('class','dark');
+      btn.textContent = 'Darken';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+    }
+  });
+  
