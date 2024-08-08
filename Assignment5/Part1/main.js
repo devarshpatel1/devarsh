@@ -1,6 +1,6 @@
 // Name : Devarsh Patel
-// File : index.html
-// Date : 2024-07-20
+// File : main.js
+// Date : 2024-08-08
 // Description: Accessibility troubleshooting exercise For MDN Docs : https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Accessibility_troubleshooting
 
 // functionality for showing/hiding the comments section
