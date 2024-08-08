@@ -1,3 +1,8 @@
+// Name : Devarsh Patel
+// File : index.html
+// Date : 2024-07-20
+// Description: Accessibility troubleshooting exercise For MDN Docs : https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Accessibility_troubleshooting
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
