@@ -59,7 +59,7 @@ p, li, table {
 /* || header layout */
 
 nav, article, footer, .secondary {
-  background-color: green;
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -72,7 +72,6 @@ article {
 
 nav {
   height: 50px;
-  background-color: ff80ff;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
@@ -188,7 +187,7 @@ audio {
   cursor: pointer;
 }
 
-.comments font h2 {
+.comments h2 {
   font-size: 2rem;
 }
 
@@ -216,14 +215,9 @@ audio {
   flex: 6;
 }
 
-.show-hide {
-  text-align: center;
-  width: 150px;
-}
-
 .comment-form input, .comment-form label, .show-hide {
   font-size: 1.6rem;
-  line-height: 32px;
+  height: 32px;
 }
 
 .comment-form input[type="submit"], .show-hide {
